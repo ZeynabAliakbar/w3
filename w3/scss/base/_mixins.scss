@@ -1,0 +1,9 @@
+@mixin buttons($color,$bgcolor)
+{
+    text-decoration: none;
+    display: block;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #f2f2f2;
+    
+}

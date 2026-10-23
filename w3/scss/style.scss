@@ -1,4 +1,5 @@
-@import 'vars';
+@import 'base/vars';
+@import 'components/header';
 *{
     padding: 0;
     margin: 0;
@@ -9,32 +10,45 @@
 #take{
     background-color: $bg-color;
 }
-header{
-    h2{
-        color: $text-color;
-    }
- 
-position: relative;
-button{
-    position: absolute;
-    bottom: 50%;
-    right:10px;
-    background-color: $bg-color;
-    color: white;
-    padding: $p-3;
-
-}
-#button2{
-    align-items: left;
-    bottom: 65%;
-    left: 60%;
-}
- 
 
 
-}
+
+
+
 #download{
     margin: $m-2;
     padding: $p-3;
    margin-top: $m-t;
-} 
+   color: black;
+}
+main{
+    h1{
+        padding: $p-3;
+    }
+    h2{
+       color: $text-color;
+       padding: $p-3;
+    }
+    p{
+        padding: $p-3;
+    }
+    #photo{
+        
+        align-items: right;
+        float: right;
+
+    }
+    #Pixels{
+        color:$text-color2 ;
+    }
+}
+#available{
+    padding: $p-2;
+    bottom: 30px;
+}
+.middle{
+    background-color: $bg-color2;
+}
+#app5{
+    padding: $p-2;
+}
