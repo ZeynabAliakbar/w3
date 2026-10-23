@@ -1,54 +1,64 @@
 @import 'base/vars';
 @import 'components/header';
-*{
+
+* {
     padding: 0;
     margin: 0;
     font-family: 'poppins';
-    
-}
 
-#take{
-    background-color: $bg-color;
 }
 
 
-
-
-
-#download{
+#download {
     margin: $m-2;
     padding: $p-3;
-   margin-top: $m-t;
-   color: black;
+    margin-top: $m-t;
+    color: black;
 }
-main{
-    h1{
+
+main {
+    h1 {
         padding: $p-3;
     }
-    h2{
-       color: $text-color;
-       padding: $p-3;
-    }
-    p{
+
+    h2 {
+        color: $text-color;
         padding: $p-3;
     }
-    #photo{
-        
+
+    #Clarity {
+        color: black;
+        font-size: 80px;
+    }
+
+    p {
+        padding: $p-3;
+    }
+
+    #photo {
+
         align-items: right;
         float: right;
+        
 
     }
-    #Pixels{
-        color:$text-color2 ;
+
+    #Pixels {
+        color: $text-color2 ;
+        font-size: $t-s;
     }
 }
-#available{
+
+#available {
     padding: $p-2;
     bottom: 30px;
+    font-size: 45px;
 }
-.middle{
+
+.middle {
     background-color: $bg-color2;
 }
-#app5{
+
+#app5 {
     padding: $p-2;
 }

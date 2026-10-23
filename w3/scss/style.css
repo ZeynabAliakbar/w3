@@ -2,25 +2,26 @@ header button {
   text-decoration: none;
   display: block;
   padding: 15px 30px;
-  color: #000;
-  background-color: #f2f2f2;
+  color: #f2f2f2;
+  background-color: #000000;
 }
 
-.btn-icon {
-  position: relative;
-  top: 50%;
-  right: 50%;
-  color: #000;
+#super {
+  position: absolute;
+  display: block;
+  bottom: 80%;
+  top: 50px;
+  padding: 50px 20px;
+}
+
+#toure {
+  padding-right: 35px;
 }
 
 * {
   padding: 0;
   margin: 0;
   font-family: "poppins";
-}
-
-#take {
-  background-color: #000;
 }
 
 #download {
@@ -37,6 +38,10 @@ main h2 {
   color: #4CAF50;
   padding: 15px;
 }
+main #Clarity {
+  color: black;
+  font-size: 80px;
+}
 main p {
   padding: 15px;
 }
@@ -46,15 +51,17 @@ main #photo {
 }
 main #Pixels {
   color: #f44336;
+  font-size: 50px;
 }
 
 #available {
   padding: 70px;
   bottom: 30px;
+  font-size: 45px;
 }
 
 .middle {
-  background-color: #9b9999;
+  background-color: #dfdede;
 }
 
 #app5 {
